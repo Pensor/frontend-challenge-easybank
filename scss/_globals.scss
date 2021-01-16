@@ -1,3 +1,27 @@
+// Global styles
 body {
   font-size: 18px;
+  font-family: 'Public Sans';
+  box-sizing: border-box;
+}
+
+p, a {
+	color: $grayishBlue;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: $darkBlue;
+  font-weight: 400;
+}
+
+button, .button {
+  color: $veryLightGray;
+  font-weight: 700;
+  background: linear-gradient(to right, $limeGreen, $brightCyan);
+  padding: 10px 25px;
+  border-radius: 20px;
+  border: none;
 }
